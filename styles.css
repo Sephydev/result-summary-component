@@ -1,5 +1,34 @@
+@font-face {
+    font-family: Hanken;
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+:root {
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+
+    --light-lavender: hsl(241, 100%, 89%);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Hanken, sans-serif;
+}
+
+header {
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.15rem;
+    color: var(--light-lavender);
+    font-weight: 600;
 }
