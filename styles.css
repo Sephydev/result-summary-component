@@ -7,7 +7,13 @@
     --light-slate-blue: hsl(252, 100%, 67%);
     --light-royal-blue: hsl(241, 81%, 54%);
 
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+
     --light-lavender: hsl(241, 100%, 89%);
+    --light-lavender-transparent: hsla(241, 100%, 89%, 0.5);
+
+    --white: hsl(0, 100%, 100%);
 }
 
 * {
@@ -31,4 +37,21 @@ h1 {
     font-size: 1.15rem;
     color: var(--light-lavender);
     font-weight: 600;
+}
+
+.avg-score-container {
+    background: linear-gradient(var(--violet-blue), var(--persian-blue));
+    border-radius: 100%;
+    max-width: 8.5rem;
+    margin: 1.5rem auto;
+    color: var(--light-lavender-transparent);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+.user-avg-score {
+    color: var(--white);
+    font-size: 3.5rem;
+    font-weight: 700;
 }
