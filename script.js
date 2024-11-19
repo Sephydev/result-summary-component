@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 imgCategory.src = data[i].icon
                 imgCategory.width = "20";
                 imgCategory.ariaHidden = true;
+                imgCategory.alt = data[i].alt
 
                 const titleCategory = document.createElement("p")
                 titleCategory.classList.add("category-title", data[i].category.toLowerCase() + "-title")
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 bottomRightCorner.classList.add("corner", "bottom-right", data[i].category.toLowerCase() + "-corner")
                 const bottomLeftCorner = document.createElement("div")
                 bottomLeftCorner.classList.add("corner", "bottom-left", data[i].category.toLowerCase() + "-corner")
+
 
                 categoryContainer.appendChild(topLeftCorner)
                 categoryContainer.appendChild(topRightCorner)
