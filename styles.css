@@ -240,6 +240,11 @@ button {
     border-radius: 10rem;
 }
 
+button:hover {
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    cursor: pointer;
+}
+
 @media screen and (min-width: 1080px) {
     body {
         max-width: 100vh;
