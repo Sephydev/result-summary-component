@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution:] (https://github.com/Sephydev/result-summary-component)
-- Live Site URL: [Live Site](https://sephydev.github.io/result-summary-component/)
+- [Solution](https://github.com/Sephydev/result-summary-component)
+- [Live Site](https://sephydev.github.io/result-summary-component/)
 
 ## My process
 
