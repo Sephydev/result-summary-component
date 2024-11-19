@@ -210,20 +210,20 @@ h2 {
     max-width: 300;
 }
 
-.red-corner {
+.reaction-corner {
     border-color: var(--light-red);
 }
 
-.yellow-corner {
+.memory-corner {
     border-color: var(--orangey-yellow);
 
 }
 
-.green-corner {
+.verbal-corner {
     border-color: var(--green-teal);
 }
 
-.blue-corner {
+.visual-corner {
     border-color: var(--cobalt-blue);
 }
 
@@ -251,6 +251,7 @@ button:hover {
         display: flex;
         height: 100vh;
         align-items: center;
+        justify-content: center;
     }
 
     header {
